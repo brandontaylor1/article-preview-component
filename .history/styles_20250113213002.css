@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    --dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--light-grayish-blue);
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.component {
+    width: 45.625rem;
+    height: 17.5rem;
+    flex-shrink: 0;
+}
+
+

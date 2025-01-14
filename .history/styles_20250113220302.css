@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    --dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--light-grayish-blue);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.component {
+    width: 45.625rem;
+    height: 17.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
+    overflow: hidden;
+}
+
+.img-container {
+    width: 21.87rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/images/drawers.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* 
+.img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.625rem 0 0 0.625rem;
+} */
+
+.component-content {
+    width: 32rem;
+    padding: 2rem;
+}
+
+.component-content h2 {
+    color: #48556A;
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem; /* 140% */
+    letter-spacing: 0.01563rem;
+    width: 100%;
+}
+
+.component-content p {
+    color: #6E8098;
+    font-family: Manrope;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 153.846% */
+    letter-spacing: 0.00763rem;
+}
+
+.social-box {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.social-box img {
+    width: 2.5rem;
+    height: 2.5rem;
+}

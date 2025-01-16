@@ -68,22 +68,22 @@ body {
 
 .component-content {
     width: 34rem;
-    padding: 1rem 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    
 }
 
 .component-content h2 {
     color: #48556A;
-    font-family: Manrope;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px; /* 140% */
-    letter-spacing: 0.25px;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 140% */
+letter-spacing: 0.25px;
 }
 
 .component-content p {
@@ -92,7 +92,7 @@ body {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 153.846% */
+    line-height: 1.25rem; /* 153.846% */
     letter-spacing: 0.00763rem;
 }
 

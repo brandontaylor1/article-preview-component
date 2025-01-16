@@ -92,7 +92,7 @@ body {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 153.846% */
+    line-height: 1.25rem; /* 153.846% */
     letter-spacing: 0.00763rem;
 }
 

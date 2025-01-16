@@ -43,8 +43,8 @@ body {
 }
 
 .component {
-    width: 730px;
-    height: 280px;
+    width: 50rem;
+    height: 20rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,31 +68,28 @@ body {
 
 .component-content {
     width: 34rem;
-    padding: 1rem 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
+    height: 18rem;
+    padding: 2rem;
 }
 
 .component-content h2 {
     color: #48556A;
     font-family: Manrope;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px; /* 140% */
-    letter-spacing: 0.25px;
+    line-height: 1.75rem; /* 140% */
+    letter-spacing: 0.01563rem;
+    width: 100%;
 }
 
 .component-content p {
     color: #6E8098;
     font-family: Manrope;
-    font-size: 12px;
+    font-size: 0.8125rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 153.846% */
+    line-height: 1.25rem; /* 153.846% */
     letter-spacing: 0.00763rem;
 }
 

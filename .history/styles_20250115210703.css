@@ -68,7 +68,7 @@ body {
 
 .component-content {
     width: 34rem;
-    padding: 1rem 3rem;
+    padding: 1rem 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +92,7 @@ body {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 153.846% */
+    line-height: 1.25rem; /* 153.846% */
     letter-spacing: 0.00763rem;
 }
 

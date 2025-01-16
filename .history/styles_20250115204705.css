@@ -217,6 +217,7 @@ body {
 
     .component .elevated {
         height: 35rem;
+        transition: all 0.3s ease;
     }
 
     .img-container {

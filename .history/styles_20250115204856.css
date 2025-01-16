@@ -206,6 +206,10 @@ body {
 
 }
 
+.elevated {
+    transition: all 0.3s ease;
+}
+
 /* Media Queries */
 @media screen and (max-width: 626px) {
 

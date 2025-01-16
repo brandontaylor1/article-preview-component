@@ -135,18 +135,21 @@ body {
 .social-info-text p:nth-child(1){
     font-weight: 700;
     color: var(--dark-grayish-blue);
+
 }
 
 .share-btn {
     padding: .5rem;
+    background-color: #FFF;
+    color: #FFF;    
     border-radius: 50%;
     cursor: pointer;
     position: relative;
 }
-
+    
 .share-btn:hover {
-    background-color: var(--dark-grayish-blue);
-    color: #FFF;
+    background-color: var(--light-grayish-blue);
+    color: var(--desaturated-dark-blue);
 }
 
 .share-box {
@@ -191,7 +194,6 @@ body {
 .share-box-details img {
     height: 15px;
     width: 15px;
-    cursor: pointer;
 }
 
 .triangle-down {

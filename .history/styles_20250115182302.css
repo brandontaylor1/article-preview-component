@@ -211,15 +211,10 @@ body {
 
 /* Media Queries */
 @media screen and (max-width: 626px) {
-
     .component {
         flex-direction: column;
         height: 32rem;
         width: 20rem;
-    }
-
-    .component .elevated {
-        height: 35rem;
     }
 
     .img-container {

@@ -193,8 +193,8 @@ body {
 }
 
 .share-box-details img {
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
 }
 
 .triangle-down {
@@ -211,15 +211,10 @@ body {
 
 /* Media Queries */
 @media screen and (max-width: 626px) {
-
     .component {
         flex-direction: column;
         height: 32rem;
         width: 20rem;
-    }
-
-    .component .elevated {
-        height: 35rem;
     }
 
     .img-container {
@@ -276,6 +271,11 @@ body {
         font-weight: 500;
         line-height: 20px; /* 153.846% */
         letter-spacing: 5px;
+    }
+
+    .share-box-details img {
+        height: 20px;
+        width: 20px;
     }
 
     .triangle-down {

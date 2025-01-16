@@ -1,6 +1,6 @@
 const shareBtn = document.querySelector('.share-btn')
 const shareBox = document.querySelector('.share-box')
-const component = document.querySelector('.component-content')
+const component = document.querySelector('.component')
 
 shareBtn.addEventListener('click', () => {
     console.log("Clicked")

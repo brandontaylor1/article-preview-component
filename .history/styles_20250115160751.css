@@ -27,14 +27,6 @@ body {
     color: white;
 }
 
-.open-box {
-    display: flex;  
-}
-
-.closed-box {
-    display: none;
-}
-
 .container {
     height: 100vh;
     display: flex;
@@ -52,7 +44,7 @@ body {
     border-radius: 0.625rem;
     background: #FFF;
     box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.50);
-    position: relative;
+    
 }
 
 .img-container {
@@ -154,72 +146,27 @@ body {
 }
 
 .share-box {
-    justify-content: center;
-    align-items: center;
     height: 50px;
     width: 248px;
     background-color: #48556A;
     position: absolute;
-    bottom: 80px;
-    right: -85px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
 
-
-.share-box-details {
-    color: #166ed2;
-    font-family: "Manrope", sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px; /* 153.846% */
-    letter-spacing: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 75%;
-    z-index: 1;
-}
-
-.share-box-details p  {
-    color: #9DAEC2;
-    font-family: Manrope;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px; /* 153.846% */
-    letter-spacing: 5px;
-}
-
-.share-box-details img {
-    height: 15px;
-    width: 15px;
 }
 
 .triangle-down {
     width: 0;
     height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #48556A;
-    position: absolute;
-    bottom: -10px;
-    z-index: 0;
-
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #48556A;
 }
 
 /* Media Queries */
 @media screen and (max-width: 626px) {
-
     .component {
         flex-direction: column;
         height: 32rem;
         width: 20rem;
-    }
-
-    .component .elevated {
-        height: 35rem;
     }
 
     .img-container {
@@ -255,30 +202,5 @@ body {
 
     .social-box {
         margin-top: 2rem;
-    }
-
-    .share-box {
-        height: 50px;
-        width: 248px;
-        background-color: #48556A;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        transition: all 0.3s ease;
-        border-radius: 0px 0px 10px 10px;
-    }
-
-    .share-box-details p  {
-        color: #9DAEC2;
-        font-family: Manrope;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 20px; /* 153.846% */
-        letter-spacing: 5px;
-    }
-
-    .triangle-down {
-        display: none;
     }
 }
